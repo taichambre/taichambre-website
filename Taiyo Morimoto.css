@@ -1,5 +1,5 @@
 .body{
-  background-image: url(backgroundgif1.gif);
+  background-image: url(background_mapletree.gif);
   background-size: cover;
 
   height: 100vh;
@@ -20,9 +20,9 @@
   justify-content: space-between;
   font-size: 30px;
   text-align: center;
-  padding: 10px;
-  margin-top: 30px;
+  padding: 30px;
   background-color: white;
+
 }
 
 
@@ -404,23 +404,23 @@
   justify-content:space-evenly;
   align-items: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 500px;
 }
 
 
 .ig{
   background: white;
-  border: black solid 4px;
   padding: 50px;
   border-radius: 200px;
   transition: 0.5s;
+  border: transparent;
 }
 .ig:hover{
   transition: 0.5s;
   box-shadow: 1px 1px 10px 10px ;
   background: transparent;
-  transform:scale(1.5)
-
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 
@@ -430,16 +430,17 @@
 
 .ig-seinenkai{
   background: white;
-  border: black solid 4px;
   padding: 50px;
   border-radius: 200px;
   transition: 0.5s;
+  border: transparent;
 }
 .ig-seinenkai:hover{
   transition: 0.5s;
   box-shadow: 1px 1px 10px 10px ;
   background: transparent;
-  transform:scale(1.5)
+  transform:scale(0.9);
+  cursor: pointer;
 
 }
 
